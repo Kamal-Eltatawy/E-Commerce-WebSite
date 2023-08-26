@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.about {
+  display: flex;
+}
+.product-image {
+  width: 50%;
+  margin: 0 5px;
+}
+.product-image img {
+  width: 100%;
+  height: 100%;
+}
+.aboutDetails p {
+  line-height: 200%;
+}
+.aboutDetails h2 {
+  text-align: center;
+}
+.aboutDetails h3 {
+  text-align: center;
+}
+.aboutDetails p #W_Name2,
+#W_Type1 {
+  color: #c01641;
+}
+
+.aboutDetails #aboutThxPragraph {
+  font-weight: bold;
+  text-align: center;
+}
+#aboutThxPragraph span {
+  color: #c01641;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+#cate_header {
+  width: auto;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2rem;
+  color: #c01641;
+}
+.aboutvedio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

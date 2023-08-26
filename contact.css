@@ -1,0 +1,97 @@
+#contactHeader {
+  width: auto;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2rem;
+  color: #c01641;
+  margin-bottom: 3%;
+}
+input[type] {
+  width: 47%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin: 5px;
+  resize: vertical;
+}
+
+input[type="reset"] {
+  background-color: #c01641;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: red;
+}
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+label {
+  display: inline-block;
+}
+label[for="firstName"] {
+  margin-left: 0.5%;
+  margin-right: 41%;
+}
+label[for="userEmail"] {
+  margin-left: 0.5%;
+  margin-right: 44%;
+}
+label[for="userPassword"] {
+  margin-left: 0.5%;
+  margin-right: 41.5%;
+}
+span {
+  color: red;
+}
+#wrongFirstName {
+  display: inline-block;
+  margin-left: 0.5%;
+  margin-right: 21.7%;
+  margin-bottom: 5px;
+}
+
+#wrongEmail {
+  display: inline-block;
+  margin-left: 0.5%;
+  margin-right: 38.5%;
+  margin-bottom: 5px;
+}
+#wrongPassword {
+  margin-left: 0.5%;
+  margin-right: 28%;
+  margin-bottom: 5px;
+}
+#WrongConfrimPassword {
+  margin-left: 0.5%;
+  margin-right: 28%;
+  margin-bottom: 5px;
+}
+form span {
+  visibility: hidden;
+}
+.Formcontainer {
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 15px;
+  padding-top: 15px;
+}

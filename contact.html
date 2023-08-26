@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header >
+        <div class="container">
+          <div class="navbar">
+            
+            <img
+            src="images/logo/logo-no-background.png"
+            alt="ZeusStoreLogo"
+            />
+            
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a id="productPage" href="index.html#cate_header">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <!-- <li><a href="account.html">Account</a></li> -->
+                <li ><a href="CartItems.html" id="icon"><p id="cardNumber"></p><i class="fa-solid fa-store"  style="color: #c01641;"></i></a></li>
+              </ul>
+            </nav>
+          </div>
+           
+  </header>
+  <div class="formcontainer">
+    <h1 id="contactHeader">Contact US</h1>
+    <section class="Formcontainer" >
+        <form  id="contactForm" action="index.html" method="get">
+            <label for="firstName">FirstName</label>
+            <label for="lastName">LastName</label> <br>
+            <input type="text" placeholder="Your First Name" autocomplete="name" name="firstName" id="firstName">
+            <input type="text" placeholder="Your Last Name" autocomplete="name" name="lastName" id="lastName"> <br>
+            <span id="wrongFirstName">First Name Must be More Than 3 Letters</span> <span id="WrongLastName">Last Name Must be More Than 3 Letters</span> <br>
+            <label for="userEmail">Email</label> 
+            <label for="phoneNumber" >PhoneNumber</label> <br>
+            <input type="email" placeholder="Your Email" autocomplete="email" name="Email" id="userEmail">
+            <input type="tel" placeholder="Your Phone Number" autocomplete="tel" name="phoneNumber" id="phoneNumber"><br> 
+            <span id="wrongEmail">Un Valid Email</span> <span id="WrongPhone">Phone Number Must Start With 01[0,1,2,5] and 8 Numbers</span> <br>
+            <label for="userPassword">Password</label> 
+            <label for="confirmPassword">Confirm Password</label> <br>
+            <input type="password" placeholder="Your Password"  name="Password" id="userPassword">
+            <input type="password" placeholder="Repeat Your Password" name="confirmPassword" id="confirmPassword"> <br>
+            <span id="wrongPassword">Password Must Have 10 characters, at least 1 uppercase letter, 1 lowercase letter, and 1 number with no spaces.</span> <span id="WrongConfrimPassword">Your password and confirmation password do not match</span> <br>
+            <input type="submit" value="Contact US">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+  </div>
+  <footer class="footer-con">
+    <div class="footcontianer">
+    <div class="footer-content">
+     <div class="footer-bottom">
+    <p>copyright &copy;2023 <a href="index.html">ZeusStore</a>  </p>
+    <div class="footer-menu">
+      <ul class="f-menu">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+     </div>
+ </div>
+  </div>
+</div>
+  </footer>
+  <script src="contact.js"></script>
+  </body>
+</html>
