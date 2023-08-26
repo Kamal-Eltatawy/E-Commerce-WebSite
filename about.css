@@ -3,6 +3,7 @@
 }
 .about {
   display: flex;
+  flex-wrap: wrap;
 }
 .product-image {
   width: 50%;
@@ -42,9 +43,4 @@
   margin-top: 2%;
   font-size: 2rem;
   color: #c01641;
-}
-.aboutvedio {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
